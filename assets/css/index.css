@@ -16,6 +16,20 @@ body {
 }
 
 /* Navbar */
-    #logo {
-        width: 2em !important;
+    .navbar {
+        transition: background-color 1s;
     }
+
+    .navbar:hover {
+        background: rgba(10,23,4,.7);
+        background-color: linear-gradient(270deg, rgba(26,59,10,.8) 10%, rgba(76,145,35,.05) 85%);
+    }
+
+    #logo {
+        width: 35px !important;
+        height: 42px !important;
+        border-radius: 100%;
+    }
+
+/* Main */
+    
